@@ -1,3 +1,6 @@
+/*Jesica Rosales Lopez
+laboratorio 9 programa 1*/
+
 #include <stdio.h> 
 int main () 
 { 
