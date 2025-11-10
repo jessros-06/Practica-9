@@ -20,3 +20,10 @@ int main ()
     //La variable a la que apunta apEnt se le asigna el valor cero  
     *apEnt = 0; 
     printf("*apEnt = 0 \t-> a = %i\n", a);
+    /*A apEnt se le asigna la dirección de memoria que tiene el elemento 0 del  
+     arreglo c*/  
+ 
+    apEnt = &c[0]; 
+    printf("apEnt = &c[0] \t-> apEnt = %i\n", *apEnt); 
+   return 0; 
+} 
